@@ -1,10 +1,15 @@
 package com.pluralsight.candycoded;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.XmlResourceParser;
 import android.net.Uri;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.MenuItem;
 import android.widget.ImageView;
 import com.squareup.picasso.Picasso;
 import java.io.IOException;
@@ -27,6 +32,8 @@ public class InfoActivity extends AppCompatActivity {
 
 
     }
+
+
 
     // ***
     // TODO - Task 2 - Launch the Google Maps Activity
